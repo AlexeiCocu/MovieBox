@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 
 const LINKS = [
-    {to: '/', text: 'home'},
+    {to: '/', text: 'Home'},
     {to: '/starred', text: 'Starred'}
 ]
 
@@ -18,9 +18,7 @@ const Nav = () => {
                     </li>
                 )
             })}
-
         </ul>
-
     </div>;
 };
 
